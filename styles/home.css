@@ -59,6 +59,7 @@ input, button, .button{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     padding: 0 1.35rem;
+    line-height: 0;
 }
 
 .separator div:nth-child(1),
@@ -76,14 +77,17 @@ input, button, .button{
     background: var(--blue);
     clip-path: circle(at 50% 50%);
     position: fixed;
+    opacity: 0.1;
 }
 
 .ball.top{
-    top: 0;
-    right: 0;
+    top: -46rem;
+    width: 63.3rem;
+    right: -36rem;
+    height: 63.3rem;
 }
 
 .ball.botton{
-    bottom: 0;
+    bottom: -15rem;
     right: 5.6rem;
 }
